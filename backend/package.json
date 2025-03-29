@@ -1,0 +1,26 @@
+{
+  "name": "registration",
+  "version": "1.0.0",
+  "description": "this is just a practise of how to create a registration and login page",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./index.js"
+  },
+  "keywords": [
+    "registration",
+    "login",
+    "signin",
+    "signup"
+  ],
+  "author": "kumar abi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "nodemon": "^3.1.9"
+  }
+}
